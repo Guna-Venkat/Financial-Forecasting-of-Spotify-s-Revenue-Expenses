@@ -34,10 +34,10 @@ conda activate spotify-forecast
 ## 📜 Step 4: Install Project Dependencies
 Use the requirements.txt file to install all packages.
 Then run:
-pip install -r requirements.txt
-⚠️ Note: prophet might take a while and may require build tools. If you face issues, try:
-pip install --upgrade pip
-pip install prophet --no-binary :all:
+pip install -r requirements.txt   
+⚠️ Note: prophet might take a while and may require build tools. If you face issues, try:  
+pip install --upgrade pip  
+pip install prophet --no-binary :all:  
 
 ## 🚀 Step 6: Run Jupyter Notebook
 jupyter notebook notebooks/EDA_and_forecasting.ipynb
