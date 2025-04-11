@@ -18,7 +18,6 @@ This guide helps you set up a complete development environment for the **Spotify
 
 If hosted on GitHub:
 
-```bash
 git clone https://github.com/Guna-Venkat/Financial-Forecasting-of-Spotify-s-Revenue-Expenses.git
 
 Or create your own:
