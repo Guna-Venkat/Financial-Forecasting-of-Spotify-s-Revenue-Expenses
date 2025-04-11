@@ -39,26 +39,26 @@ pip install -r requirements.txt
 pip install --upgrade pip  
 pip install prophet --no-binary :all:  
 
-## 🚀 Step 6: Run Jupyter Notebook
+## 🚀 Step 5: Run Jupyter Notebook
 jupyter notebook notebooks/EDA_and_forecasting.ipynb
-## 🌐 Step 7: Run the Web App
+## 🌐 Step 6: Run the Web App
 If using Streamlit:  
 streamlit run app/app.py  
 If using Gradio:  
 python app/app.py  
-## ✅ Step 8: (Optional) Export Conda Environment
+## ✅ Step 7: (Optional) Export Conda Environment
 To export the full environment:  
 conda env export > environment.yml  
 To recreate it on another system:  
 conda env create -f environment.yml  
 conda activate spotify-forecast  
-## 🧹 Step 9: Add .gitignore
-Here's a basic .gitignore file:
-__pycache__/
-.ipynb_checkpoints/
-.env
-*.pkl
-.DS_Store
-.env
-.vscode/
-*.pyc
+## 🧹 Step 9: Add .gitignore  
+Here's a basic .gitignore file:  
+__pycache__/  
+.ipynb_checkpoints/  
+.env  
+*.pkl  
+.DS_Store  
+.env  
+.vscode/  
+*.pyc  
