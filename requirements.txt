@@ -16,8 +16,9 @@ scikit-learn
 streamlit
 gradio
 
-# Jupyter Notebook (optional but useful)
-jupyter
+# Jupyter Notebook Support
+jupyterlab
+notebook
 
-# Miscellaneous
+# Utility
 tqdm
