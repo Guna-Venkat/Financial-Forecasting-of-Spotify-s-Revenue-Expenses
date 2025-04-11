@@ -1,0 +1,18 @@
+name: spotify-forecast
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-learn
+  - statsmodels
+  - prophet
+  - streamlit
+  - gradio
+  - jupyter
+  - tqdm
