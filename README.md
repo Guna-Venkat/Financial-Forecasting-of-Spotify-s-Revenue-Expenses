@@ -60,3 +60,25 @@ spotify-forecasting/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
+## 🧾 Glossary of Key Financial Metrics
+
+| Field Name                      | Description |
+|--------------------------------|-------------|
+| **Date**                        | Quarterly timestamp of the financial report. |
+| **Total Revenue**              | Combined revenue from all sources. |
+| **Cost of Revenue**            | Costs directly related to providing Spotify's services (e.g., royalties, hosting). |
+| **Gross Profit**               | Revenue minus Cost of Revenue. Indicates profitability before operational costs. |
+| **Premium Revenue**            | Revenue generated from paid (ad-free) subscriptions. |
+| **Premium Cost Revenue**       | Cost directly associated with premium services. |
+| **Premium Gross Profit**       | Profit from Premium subscriptions after subtracting associated costs. |
+| **Ad Revenue**                 | Revenue from Spotify’s free (ad-supported) user base. |
+| **Ad Cost of Revenue**         | Cost of running ad-supported services (e.g., ad delivery, royalties). |
+| **Ad Gross Profit**            | Profit from ads after deducting associated costs. |
+| **MAUs**                       | Monthly Active Users — total Spotify users active in a given month. |
+| **Premium MAUs**               | Monthly Active Users with Premium subscriptions. |
+| **Ad MAUs**                    | Monthly Active Users using the ad-supported version. |
+| **Premium ARPU**               | Average Revenue Per User for Premium subscribers. |
+| **Sales and Marketing Cost**   | Expenses for promoting Spotify and acquiring users. |
+| **Research and Development Cost** | Expenses related to improving Spotify's technology and features. |
+| **General and Administrative Cost** | Operational overhead — salaries, legal, HR, etc. |
