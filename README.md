@@ -63,22 +63,73 @@ spotify-forecasting/
 ```
 ## 🧾 Glossary of Key Financial Metrics
 
-| Field Name                      | Description |
-|--------------------------------|-------------|
-| **Date**                        | Quarterly timestamp of the financial report. |
-| **Total Revenue**              | Combined revenue from all sources. |
-| **Cost of Revenue**            | Costs directly related to providing Spotify's services (e.g., royalties, hosting). |
-| **Gross Profit**               | Revenue minus Cost of Revenue. Indicates profitability before operational costs. |
-| **Premium Revenue**            | Revenue generated from paid (ad-free) subscriptions. |
-| **Premium Cost Revenue**       | Cost directly associated with premium services. |
-| **Premium Gross Profit**       | Profit from Premium subscriptions after subtracting associated costs. |
-| **Ad Revenue**                 | Revenue from Spotify’s free (ad-supported) user base. |
-| **Ad Cost of Revenue**         | Cost of running ad-supported services (e.g., ad delivery, royalties). |
-| **Ad Gross Profit**            | Profit from ads after deducting associated costs. |
-| **MAUs**                       | Monthly Active Users — total Spotify users active in a given month. |
-| **Premium MAUs**               | Monthly Active Users with Premium subscriptions. |
-| **Ad MAUs**                    | Monthly Active Users using the ad-supported version. |
-| **Premium ARPU**               | Average Revenue Per User for Premium subscribers. |
-| **Sales and Marketing Cost**   | Expenses for promoting Spotify and acquiring users. |
-| **Research and Development Cost** | Expenses related to improving Spotify's technology and features. |
-| **General and Administrative Cost** | Operational overhead — salaries, legal, HR, etc. |
+| **Term**                  | **Description**                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|
+| Total Revenue            | Combined income from all sources (premium + ads).                               |
+| Premium Revenue          | Income from Spotify subscriptions.                                              |
+| Ad Revenue               | Income from advertising (free-tier users).                                      |
+| Cost of Revenue          | Total cost to deliver the service (e.g., royalties, streaming infra).           |
+| Gross Profit             | Total Revenue - Cost of Revenue.                                                |
+| Premium/Ad Cost Revenue  | Respective costs for premium/ad services.                                       |
+| MAUs                     | Monthly Active Users (Total, Premium, Ad-supported).                            |
+| Premium ARPU             | Average Revenue Per Premium User.                                               |
+| R&D / S&M / G&A Costs    | Research, Sales & Marketing, and General/Admin expenses.                        |
+
+---
+
+## Key Insights from EDA (2017–2023)
+
+### 💡 1. Revenue Growth is Premium-Driven
+- **Premium Revenue** grew from **$828M (Q1 2017)** to **$2.7B (Q1 2023)** — more than a **3x increase**.
+- **Ad Revenue** saw minor growth: from **$74M** to **$329M** in the same period.
+- This confirms that **Spotify’s primary revenue engine is its subscription model**.
+
+---
+
+### 💡 2. Gross Profit Mirrors Premium Trends
+- **Premium Gross Profit** increased in sync with Premium Revenue, highlighting **consistent margins**.
+- **Ad Gross Profit** remains much lower and even negative at times (e.g., **Q1 2023: -$10M**), indicating **ad segment inefficiencies or high costs**.
+
+---
+
+### 💡 3. MAUs Have Grown, But Premium Users Lead
+- **Total MAUs** rose from **131M (Q1 2017)** to **515M (Q1 2023)**.
+- **Premium MAUs** nearly **quadrupled**, indicating:
+  - Higher customer retention.
+  - Successful conversion from free-tier to paid users.
+- **Ad MAUs** increased too, but at a slower pace.
+
+---
+
+### 💡 4. ARPU Is Stable with a Slight Downtrend
+- **Premium ARPU** declined from **$5.46 (Q1 2017)** to **$4.32 (Q1 2023)**.
+- Suggests:
+  - **Global expansion** into markets with lower pricing.
+  - **Discount plans** or family/student bundles impacting ARPU.
+
+---
+
+### 💡 5. Costs Are Rising, But So Is Efficiency
+- **Cost of Revenue** grew, but at a slower rate than revenue.
+- **Sales & Marketing** and **R&D** costs increased, signaling:
+  - Stronger brand push.
+  - Continued product innovation.
+- **Gross Profit** also improved, indicating better **operational efficiency**.
+
+---
+
+### 💡 6. Ad Business is Not Yet Profitable
+- Ad Revenue often **barely covers Ad Cost**, and **Gross Profit is frequently low or negative**.
+- Suggests Spotify might:
+  - Be using ads mainly as a funnel to Premium.
+  - Still be experimenting with the ad model's optimization.
+
+---
+
+### 📌 Final Observations
+- Spotify is steadily evolving from an ad-supported platform to a **premium subscription-first model**.
+- With steady MAU growth and stable ARPU, the business shows strong fundamentals.
+- Strategic focus should be:
+  - Improving **ad profitability**.
+  - **Innovating pricing models** to improve ARPU without losing users.
+
