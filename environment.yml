@@ -1,9 +1,11 @@
 name: spotify-forecast
 channels:
-  - defaults
   - conda-forge
+  - defaults
+
 dependencies:
   - python=3.10
+  - pip
   - pandas
   - numpy
   - matplotlib
@@ -11,8 +13,9 @@ dependencies:
   - plotly
   - scikit-learn
   - statsmodels
-  - prophet
   - streamlit
   - gradio
   - jupyter
   - tqdm
+  - pip:
+      - prophet  # Installing via pip is faster and more reliable
