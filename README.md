@@ -12,6 +12,8 @@ Spotify, as a fast-growing audio streaming company, operates on thin margins and
 
 > Analyze and forecast Spotify’s **monthly revenues**, **expenses**, and **premium user counts** using time series techniques, and develop an **interactive dashboard** to visualize trends and predictions.
 
+**Output:*
+
 ---
 
 ## 🔍 2. Dataset
