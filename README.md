@@ -12,10 +12,13 @@ Spotify, as a fast-growing audio streaming company, operates on thin margins and
 
 > Analyze and forecast Spotify’s **monthly revenues**, **expenses**, and **premium user counts** using time series techniques, and develop an **interactive dashboard** to visualize trends and predictions.
 
-**Output:**
+---
+
 ## 📊 Forecast Dashboard Preview
 
 ![Forecast Dashboard](https://github.com/Guna-Venkat/Financial-Forecasting-of-Spotify-s-Revenue-Expenses/raw/main/assets/forecast_image.PNG)
+
+---
 
 # 📈 Business Use Cases of Forecasted Data
 
@@ -31,8 +34,6 @@ We’ve forecasted the following key features using ARIMA:
 ---
 
 ## ✅ How Businesses Can Use These Forecasts
-
----
 
 ### 1. 💰 Revenue Planning & Target Setting
 - **Use Case**: Set realistic revenue goals and growth targets.
@@ -99,14 +100,15 @@ We’ve forecasted the following key features using ARIMA:
 
 ## 🔄 Department-Wise Operational Usage
 
-| 👥 Team        | 📌 Usage Example |
-|----------------|------------------|
-| **Finance**    | Budgeting, cost planning, profit margin analysis |
-| **Product**    | Feature development, user engagement roadmaps |
-| **Marketing**  | Growth campaigns, CAC vs LTV optimization |
-| **R&D**        | Resource allocation, innovation ROI planning |
-| **Sales**      | Forecasting targets, lead pipeline strategy |
+| 👥 Team        | 📌 Usage Example                                         |
+|----------------|----------------------------------------------------------|
+| **Finance**    | Budgeting, cost planning, profit margin analysis         |
+| **Product**    | Feature development, user engagement roadmaps            |
+| **Marketing**  | Growth campaigns, CAC vs LTV optimization                |
+| **R&D**        | Resource allocation, innovation ROI planning             |
+| **Sales**      | Forecasting targets, lead pipeline strategy              |
 | **Executives** | Strategic decisions, quarterly OKRs, investor communication |
+
 ---
 
 ## 🔍 2. Dataset
@@ -155,6 +157,7 @@ spotify-forecasting/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
 ```
 ## 🧾 Glossary of Key Financial Metrics
 
