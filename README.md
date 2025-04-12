@@ -15,7 +15,7 @@ Spotify, as a fast-growing audio streaming company, operates on thin margins and
 **Output:**
 ## 📊 Forecast Dashboard Preview
 
-![Forecast Dashboard](./assets/forecast_image.png)
+![Forecast Dashboard](https://github.com/Guna-Venkat/Financial-Forecasting-of-Spotify-s-Revenue-Expenses/tree/main/assets)
 
 ---
 
